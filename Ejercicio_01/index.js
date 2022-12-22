@@ -1,6 +1,6 @@
 /* Importar nuestras dependencias */
-import ClientSQL from './sql'
-import { options } from './options/SQLite3'
+import ClientSQL from './sql.js'
+import { options } from './options/SQLite3.js'
 
 /* Conexiones */
 const sql = new ClientSQL(options)
