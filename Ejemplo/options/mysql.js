@@ -1,6 +1,11 @@
 const options = {
     client: 'mysql',
-    connection: 'mysql://coderhouse:coderhouse@localhost:3306/coderhouse'
+    connection: {
+        host: 'localhost',
+        user: 'root',
+        password: '',
+        database: 'coderhouse'
+    }
 }
 
 module.exports = {options}
